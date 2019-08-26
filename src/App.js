@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from './components/card'
 import Carousel from './components/carousel'
+import QuickReplies from './components/quickreplies'
 import './App.css';
 
 const cardInfo = {
@@ -18,13 +19,16 @@ const cardInfo = {
   }]
 }
 
-const carouselInfo = [ cardInfo, cardInfo, cardInfo ]
+const carouselInfo = [ cardInfo, cardInfo, cardInfo ];
+
+const qrInfo = [{title: 'coso', payload: 'coso_postback'}, {title: 'soco', payload: 'soco_postback'}]
 
 function App() {
   return (
     <div className="App">
       <Card element={cardInfo}/>
       <Carousel elements={carouselInfo}/>
+      <QuickReplies elements={qrInfo} color={'#4233FF'}/>
     </div>
   );
 }
