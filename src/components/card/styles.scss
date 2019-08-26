@@ -1,0 +1,74 @@
+.gCardContainer {
+  height: 330px;
+  width: 220px;
+  border-radius: 20px;
+  border: 1px solid #C6C6C6;
+}
+
+.gCardImgContainer {
+  overflow: hidden;
+  max-height: 120px;
+  justify-content: center;
+  height: 120px;
+}
+
+.gCardImg {
+  height: 100%;
+  width: 100%;
+  min-height: 125px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  max-height: 120px;
+}
+
+.gCardInfo {
+  margin-top: 10px;
+}
+
+.gCardTitle {
+  position: relative;
+  padding-bottom: 0;
+  line-height: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px;
+  margin-bottom: -5px;
+}
+
+.gCardSubtitle {
+  padding-left: 5px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.54);
+  display: block;
+  height: 42px;
+  max-height: 42px;
+  margin-bottom: 3px;
+}
+
+.gCardActions {
+  margin-top: 10px;
+  vertical-align: middle;
+  justify-content: center;
+  align-content: center
+}
+
+.gCardBtnGroup {
+  margin-top: 35px;
+  width: 100%;
+}
+
+.gCardBtn:hover {
+  background-color: #E9E9E9;
+  border-color: gray;
+  color: gray;
+}
+
+.gCardBtn {
+  width: 100%;
+  border: 1px solid #C6C6C6;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 12px;
+  border-radius: 12px;
+}
