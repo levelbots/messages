@@ -1,1 +1,3 @@
-export { default } from './QuickReplies';
+import QuickReplies from './QuickReplies'
+
+export default QuickReplies;
